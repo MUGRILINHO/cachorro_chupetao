@@ -1,5 +1,5 @@
 :root {
-    --branco-principal: #FFFFFF;
+    --branco-principal: #ffffff;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
     --cor-de-fundo: #df0b0b;
@@ -23,6 +23,8 @@ body {
 
 .container {
     height: 100vh;
+    display: grid;
+    grid-template-columns: 20%;
 }
 
 .container__botao {
@@ -31,4 +33,8 @@ body {
     padding: 1em;
     color: var(--branco-principal);
     display: block;
+}
+
+.botao_secundario{
+    background-color: firebrick;
 }
