@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: var(--cor-de-fundo);
+    background-color: var(--branco-principal);
     color: var(--branco-principal);
     font-family: var(--branco-principal);
     font-size: 16px;
@@ -19,9 +19,13 @@ body {
 }
 
 .principal {
-    background-image: url("img/flamengo.png");
+    background-image: url("img/clashrisada.png");
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.clash{
+    height: 30vh;
 }
 
 .container {
